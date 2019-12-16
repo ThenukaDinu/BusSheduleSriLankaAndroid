@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Buses Sri-Lanka</string>
+
+    <string name="user_name">BusService</string>
+    <string name="hint01">Start Place</string>
+    <string name="hint02">End Place</string>
+    <string name="revers">REVERSE</string>
+    <string name="more">MORE</string>
+    <string name="search">SEARCH</string>
+
+    <string-array name="bus_root">
+        <item>Colombo Fort</item>
+        <item>Kandy</item>
+        <item>Galle</item>
+        <item>Matara</item>
+        <item>Jaffna</item>
+        <item>Anuradapura</item>
+        <item>Badulla</item>
+        <item>Baticlo</item>
+        <item>Gampha</item>
+        <item>Hambanthota</item>
+        <item>Nwaraeliya</item>
+        <item>Plonnaruwa</item>
+        <item>Haton</item>
+    </string-array>
+
+</resources>

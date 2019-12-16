@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusSearchForStartEndPlaceActivity">
+
+
+    <EditText
+        android:id="@+id/txt_start2"
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:drawableRight="@drawable/ic_backspace_black_24dp"
+        android:drawablePadding="8dp"
+        android:hint="  Start Place"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:background="@drawable/buttons"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <Button
+        android:id="@+id/btn_rev"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:background="@drawable/card"
+        android:drawableRight="@drawable/ic_import_export_black_24dp"
+        android:text="Revers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <Button
+        android:id="@+id/btn_more"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:background="@drawable/card"
+        android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:text="More"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <EditText
+        android:id="@+id/txt_end"
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:drawableRight="@drawable/ic_backspace_black_24dp"
+        android:drawablePadding="8dp"
+        android:hint="  End Place"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+
+
+    <Button
+        android:id="@+id/btn_back_home"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_view"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "645117829928",
+    "firebase_url": "https://bus-shedule-sri-lanka.firebaseio.com",
+    "project_id": "bus-shedule-sri-lanka",
+    "storage_bucket": "bus-shedule-sri-lanka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645117829928:android:6d6ac9b4fbb8957ab6661d",
+        "android_client_info": {
+          "package_name": "com.oceanblue.busshedulesrilanka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645117829928-d5mv3kjn924l2mfrcsi18ev340tuo9tv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oceanblue.busshedulesrilanka",
+            "certificate_hash": "8b36768ec854799333267c9bafafd1bdc22e0ed1"
+          }
+        },
+        {
+          "client_id": "645117829928-b8b4p3nl6ti5k8f0g2l9ccs2bp83dulh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYB6Ygd1aQyA22b8zYWUmO9vipJEkxL1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645117829928-b8b4p3nl6ti5k8f0g2l9ccs2bp83dulh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

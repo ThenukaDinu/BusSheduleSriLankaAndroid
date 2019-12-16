@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/register_reg_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif-monospace"
+        android:text="Registration"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/register_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_reg_title"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/register_email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_username_input"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_design"
+        android:hint="Email"
+        android:inputType="text"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/register_phone_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_email_input"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:maxLength="10"
+        android:hint="Phone Number"
+        android:background="@drawable/input_design"
+        android:inputType="number"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/register_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_phone_number_input"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/input_design"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_password_input"
+        >
+        <RadioButton
+            android:id="@+id/driver_rtb"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="I'm a Driver"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/user_rtb"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/driver_panel_link"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="I'm a User"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_group"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Create Account"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/loginLinkINRegis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Already have an account? Click here to Login"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

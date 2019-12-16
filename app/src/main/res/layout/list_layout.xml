@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/lbl_res_bus_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bus No"
+
+        />
+
+
+    <TextView
+        android:id="@+id/lblBusNoRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="3"
+        />
+
+    <TextView
+        android:id="@+id/lbl_res_start_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Time"
+        />
+
+    <TextView
+        android:id="@+id/lblStratTimeRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        tools:text="1"
+        />
+
+    <TextView
+        android:id="@+id/lbl_res_end_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End Time"
+         />
+
+    <TextView
+        android:id="@+id/lblEndtimeRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        tools:text="1"
+        />
+
+    <TextView
+        android:id="@+id/lbl_res_start_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Place"
+        />
+
+    <TextView
+        android:id="@+id/lblstartPlaceRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        tools:text="1"
+        />
+
+    <TextView
+        android:id="@+id/lbl_res_end_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End Place"
+         />
+
+    <TextView
+        android:id="@+id/lblEndPlaceRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        tools:text="1" />
+
+
+</LinearLayout>
